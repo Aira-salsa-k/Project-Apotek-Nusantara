@@ -1,0 +1,183 @@
+ p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500 !important; /* Konten medium */
+        margin-bottom: 0.5rem;
+        color: #4A5568;
+    }
+
+    .small {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.875rem;
+    }
+
+    .small span {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400 !important; /* Label dalam card obat normal */
+    }
+
+.card_second {
+    margin-bottom: 4rem;  /* Menambahkan jarak 4rem di bagian bawah */
+    background-color: #f8f8f8;
+    border-radius: 12px;
+}
+
+.card_second .bg-light {
+    background-color: white !important;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+
+    .card {
+    border: none;
+    border-radius: 12px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f8f8f8;  /* Warna background card */
+}
+
+.card .bg-light {
+    background-color: white !important;  /* Ubah card obat jadi putih untuk kontras */
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+}
+
+    .card-title {
+        font-weight: 600;
+    }
+
+    h5 {
+        font-weight: 600;
+        color: #2D3748;
+    }
+    
+  label {
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .fw-medium {
+        font-weight: 500 !important;
+    }
+
+    /* Garis pemisah responsif */
+    @media (max-width: 767.98px) {
+        .border-start {
+            border-left: none !important;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #E2E8F0;
+        }
+    }
+
+    /* Spacing untuk mobile */
+    @media (max-width: 767.98px) {
+        .col-md-6.pe-md-4,
+        .col-md-6.ps-md-4 {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+    
+
+    /* Tambahan CSS untuk card baru */
+    .card .bg-light {
+        background-color: #F8FAFC !important;
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+    }
+
+    .text-success {
+        color: #4CAF50 !important;
+    }
+
+    .small {
+        font-size: 0.875rem;
+    }
+
+    .fw-bold {
+        font-weight: 600 !important;
+    }
+
+    /* Responsif styling */
+    @media (max-width: 767.98px) {
+        .border-start {
+            border-left: none !important;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #E2E8F0;
+        }
+    }
+
+
+    h5 {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 600;
+        color: #2D3748;
+    }
+
+    label {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: #2D3748;
+    }
+
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #4A5568;
+        margin-bottom: 0.5rem;
+    }
+
+    .small {
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.875rem;
+    }
+
+    .small span {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        color: #2D3748;
+    }
+
+    .card .bg-light {
+        background-color: #F8FAFC !important;
+        border: 1px solid #E2E8F0;
+        border-radius: 8px;
+    }
+
+    /* Responsif styling */
+    @media (max-width: 767.98px) {
+        .border-start {
+            border-left: none !important;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #E2E8F0;
+        }
+    }
+
+    @media (max-width: 767.98px) {
+        .col-md-6.pe-md-4,
+        .col-md-6.ps-md-4 {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+
+    /* Tambahkan style untuk button orange */
+    .btn-custom-orange {
+        background-color: #FF6B00;
+        color: white;
+        border-radius: 50px;
+        padding: 8px 24px;
+        border: none;
+        font-weight: 500;
+        font-family: 'Noto Sans', sans-serif;
+        transition: all 0.3s ease;
+    }
+
+    .btn-custom-orange:hover {
+        background-color: #E65100;
+        color: white;
+        transform: translateY(-1px);
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }

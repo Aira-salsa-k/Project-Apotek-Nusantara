@@ -1,0 +1,127 @@
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #F9FAFB;
+}
+
+.card-title {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: #38A169;
+}
+
+/* Table Styling */
+.table {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+.table th {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: #2D3748;
+    border-bottom: 2px solid #E2E8F0;
+    white-space: nowrap;
+}
+
+.table td {
+    font-weight: 400;
+    color: #4A5568;
+    vertical-align: middle;
+}
+
+/* List dalam tabel */
+.list-unstyled {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.list-unstyled li {
+    margin-bottom: 0.25rem;
+}
+
+/* Button Styling */
+.btn-custom-orange {
+    background-color: #f0751e;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+/* Khusus untuk ukuran small */
+.btn-sm.btn-custom-orange {
+    padding: 0.25rem 0.8rem;
+    font-size: 0.875rem;
+}
+
+.btn-custom-orange:hover {
+    background-color: #d85e1c;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-custom-orange:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.btn-custom-orange:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 107, 0, 0.25);
+    color: white;
+}
+
+/* Responsive Styling */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        border: 0;
+    }
+    
+    .table td {
+        white-space: normal;
+    }
+}
+/* Table Header Styling */
+.table th {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: #2D3748;
+    border-bottom: 2px solid #E2E8F0;
+    white-space: nowrap;
+    font-size: 1rem;  /* Memperbesar ukuran font header */
+    padding: 1rem;    /* Memperbesar padding */
+}
+
+/* Button Detail Data */
+.btn-sm.btn-custom-green {
+    background-color: #38A169;
+    color: white;
+    border-radius: 50px;
+    padding: 0.25rem 0.8rem;
+    font-size: 0.875rem;
+    border: none;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-sm.btn-custom-green:hover {
+    background-color: #2F855A;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-sm.btn-custom-green:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.btn-sm.btn-custom-green:focus {
+    box-shadow: 0 0 0 0.2rem rgba(56, 161, 105, 0.25);
+    color: white;
+}

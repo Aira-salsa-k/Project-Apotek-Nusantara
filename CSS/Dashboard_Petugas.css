@@ -1,0 +1,90 @@
+/* Button Styling */
+.btn-custom-orange {
+    background-color: #FF6B00;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-sm.btn-custom-orange {
+    padding: 0.10rem 0.5rem;
+    font-size: 0.500rem;
+}
+
+.btn-custom-orange:hover {
+    background-color: #E65100;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-custom-orange:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Button Styling untuk Konfirmasi */
+.btn-custom-confirm {
+    background-color: #FFC107; /* Warna kuning untuk konfirmasi */
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-sm.btn-custom-confirm {
+    padding: 0.25rem 0.8rem;
+    font-size: 0.500rem;
+}
+
+.btn-custom-confirm:hover {
+    background-color: #FFA000; /* Warna kuning lebih gelap saat hover */
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-custom-confirm:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Button Styling untuk Lihat Data */
+.btn-custom-green {
+    background-color: #38A169;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.btn-sm.btn-custom-green {
+
+    font-size: 0.200rem;
+}
+
+.btn-custom-green:hover {
+    background-color: #2F855A;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-custom-green:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        border: 0;
+    }
+}
